@@ -23,7 +23,7 @@ Follow this step-by-step guide, and you’ll learn how to build this page.
 - How to Make the Content Centered Vertically?
 
 ## Prerequisites and setup
-To get started with the Uno Figma plugin, review the ![Getting started](../../getting-started-uno-figma.md) guide.
+To get started with the Uno Figma plugin, review the ![Getting started](https://platform.uno/docs/articles/external/figma-docs/overview/getting-started-uno-figma.html) guide.
 
 ## Step 1: Setting the page template
 
