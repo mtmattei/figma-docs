@@ -4,7 +4,11 @@
 
 ### Introduction
 
-Toolkit comes preloaded with a set of semantic colors allowing project-specific colors to easily be applied to all components of the design system and their states. Each semantic color style has a predefined role to play, it can be customized by changing its HEX values, but it's not possible to change its roles in the design system without creating custom code to support that use case. E.G.: a *Filled* Button uses PrimaryColor as its fill color, while *Elevated* and *Tonal* Buttons use PrimaryColor to fill only their labels. So changing the HEX value of PrimaryColor would impact these buttons (as well as almost every component in the design system). This can easily be tested and experimented with from the *Getting Started* page of the Toolkit.
+The Toolkit comes preloaded with a set of semantic colors allowing project-specific colors to easily be applied to all components of the design system and their states. Each semantic color style has a predefined role to play, it can be customized by changing its HEX values, but it's only possible to change its roles in the design system by creating custom code to support that use case.
+
+E.g., a *Filled* Button uses PrimaryColor as its fill color, while *Elevated* and *Tonal* Buttons use PrimaryColor to fill only their labels. So changing the HEX value of PrimaryColor would impact these buttons (as well as almost every component in the design system).
+
+This can easily be tested and experimented with from the *Getting Started* page of the Toolkit.
 
 ![](assets/colors1.png)
 
@@ -53,6 +57,22 @@ Component visual states are usually defined as an extra layer of their main colo
 
 Toolkit provides Light and Dark themes that should work for any project. They can be customized to follow to colors required by a particular project. In the case where there is no predefined color theme or simply to help fill in the gaps for an existing color theme, we recommend using a tool like the **Material theme Builder**.
 
-You can also swap color themes in and out of the document using the **Atlas Theme Manager Plugin**.
+## Dark Mode
 
-More details to get those tools on the [Download & Tools](../../download.md) page.
+The Toolkit design system comes with both light and dark mode color styles. You will need to set the appropriate colors for each theme, considering that each color style name should match between both modes.  (E.g, Light/Primary – Dark/Primary)
+ 
+When running the plugin, users can toggle between light mode and dark mode displays using the dark theme color values that have been set. To get the desired dark mode look, make sure the names of your styles match in both Light and Darth and only the HEX values changes. 
+
+## Preview dark mode in the Plugin
+
+1.	Select your screen and Run the Uno Platform plugin.
+2.	Select the Preview Tab and click Refresh.
+3.	Set the toggle switch to the Dark theme below your rendered design.
+
+## Designing for dark mode
+
+1.	Edit the HEX values of the Dark theme color styles
+2.	Select a screen that uses the light theme
+3.	Run Atlas Theme Manager Plugin** and select “Dark” from the drop-down. This will swap all “Light” values with the dark value styles with corresponding names.
+
+More details to get those tools on the [Download & Tools](https://platform.uno/docs/articles/external/figma-docs/download.html) page.
